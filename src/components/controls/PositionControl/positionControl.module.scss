@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &:nth-child(1) {
+    margin-right: 8px;
+  }
+
+  & > .item:not(:last-child) {
+    margin-right: 4px;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+
+  flex-grow: 1;
+  border-radius: 6px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #151515;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f6f6f8;;
+  }
+}
+
+.active {
+  background-color: #f6f6f8;
+}

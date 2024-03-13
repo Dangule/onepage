@@ -1,0 +1,18 @@
+.input {
+  max-width: 252px;
+  width: 100%;
+  padding: calc(16px - 1px);
+
+  border-radius: 4px;
+  border: 1px solid #e0e0e6;
+  background-color: #f6f6f8;
+  box-sizing: border-box;
+
+  color: #151515;
+  font-size: 14px;
+  line-height: 16px;
+
+  &::placeholder {
+    color: #B1B1BD;
+  }
+}

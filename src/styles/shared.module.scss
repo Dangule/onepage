@@ -1,0 +1,18 @@
+.control {
+  padding: 8px 14px;
+
+  &:not(:last-child) {
+    padding: 8px 14px 15px;
+  }
+}
+
+.controlLabel {
+  margin-bottom: 10px;
+  margin-top: 4px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1F2021;
+  text-transform: capitalize;
+}

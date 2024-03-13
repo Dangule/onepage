@@ -1,0 +1,77 @@
+.button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+  
+  display: inline-block;
+
+  background-color: #1E5DFF;
+  border-radius: 6px;
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1457ff;
+  }
+}
+
+.size_extra-small {
+  padding: 4px 6px;
+}
+
+.size_small {
+  padding: 8px 12px;
+}
+
+.size_medium {
+  padding: 12px 18px;
+}
+
+.size_large {
+  padding: 16px 22px;
+}
+
+.size_extra-large {
+  padding: 20px 28px;
+}
+
+// Horizontal positioning 
+
+.pos-left {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pos-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pos-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+// Vertical positioning 
+
+.pos-top {
+  align-self: flex-start;
+}
+
+.pos-middle {
+  align-self: center;
+}
+
+.pos-bottom {
+  align-self: flex-end;
+}

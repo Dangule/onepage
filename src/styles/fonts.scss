@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: 
+      url('../assets/fonts/circular/CircularStd-Book.ttf') format('truetype'), 
+      url('../assets/fonts/circular/CircularStd-Book.woff') format('woff'),
+      url('../assets/fonts/circular/CircularStd-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: 
+      url('../assets/fonts/circular/CircularStd-Bold.ttf') format('truetype'), 
+      url('../assets/fonts/circular/CircularStd-Bold.woff') format('woff'),
+      url('../assets/fonts/circular/CircularStd-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
